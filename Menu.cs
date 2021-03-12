@@ -49,6 +49,8 @@ namespace HumanBenchmark
                     break;
 
                 case "pb_AimTest":
+                    new AimTest().Show();
+                    Hide();
                     break;
             }
         }
